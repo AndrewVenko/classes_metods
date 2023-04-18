@@ -1,4 +1,4 @@
-import Zombie from '../src/Zombie';
+import Zombie from '../Zombie';
 
 // Проверяем класс Zombie
 describe('Zombie', () => {

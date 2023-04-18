@@ -1,4 +1,4 @@
-import Daemon from '../src/Daemon';
+import Daemon from '../Daemon';
 
 // Проверяем класс Deamon
 describe('Daemon', () => {

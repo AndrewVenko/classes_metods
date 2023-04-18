@@ -1,15 +1,15 @@
-import Bowerman from '../src/Bowerman';
+import Bowerman from '../Bowerman';
 
 // Проверяем класс Bowerman
 describe('Bowerman', () => {
   it('should create a Bowerman with the correct properties', () => {
-    const daemon = new Bowerman('Legolas');
-    expect(daemon.name).toBe('Legolas');
-    expect(daemon.health).toBe(100);
-    expect(daemon.level).toBe(1);
-    expect(daemon.type).toBe('Bowman');
-    expect(daemon.attack).toBe(25);
-    expect(daemon.defence).toBe(25);
+    const bowman = new Bowerman('Legolas');
+    expect(bowman.name).toBe('Legolas');
+    expect(bowman.health).toBe(100);
+    expect(bowman.level).toBe(1);
+    expect(bowman.type).toBe('Bowman');
+    expect(bowman.attack).toBe(25);
+    expect(bowman.defence).toBe(25);
   });
 
   it('should throw an error if the name length is less than 2 characters', () => {

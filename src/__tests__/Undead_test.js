@@ -1,4 +1,4 @@
-import Undead from '../src/Undead';
+import Undead from '../Undead';
 
 // Проверяем класс Undead
 describe('Undead', () => {

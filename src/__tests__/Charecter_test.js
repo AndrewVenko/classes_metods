@@ -1,4 +1,4 @@
-import Character from '../src/Character';
+import Character from '../Character';
 
 // Проверяем класс Character
 describe('Character', () => {

@@ -1,4 +1,4 @@
-import Magician from '../src/Magician';
+import Magician from '../Magician';
 
 // Проверяем класс Magician
 describe('Magician', () => {

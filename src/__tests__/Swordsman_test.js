@@ -1,4 +1,4 @@
-import Swordsman from '../src/Swordsman';
+import Swordsman from '../Swordsman';
 
 // Проверяем класс Swordsman
 describe('Swordsman', () => {
